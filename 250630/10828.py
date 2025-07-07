@@ -1,6 +1,7 @@
 # 10828 
 import sys
 
+# 문제가 스택이니까 스택 구조체 만들면 더 좋지 않았을까? 이름도 스택 관련으로 하고,,,
 def push(soo):
   lili.append(soo)
 

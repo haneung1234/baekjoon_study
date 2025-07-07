@@ -38,7 +38,7 @@ for _ in range(num):
   one = get[0]
 
   if one == "push":
-    push(int(get[1])) # push일때만 2개를 입력 받음 -> push일때만 변환
+    push(int(get[1])) 
   elif one == "pop":
     pop()
   elif one == "size":

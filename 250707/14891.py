@@ -1,19 +1,15 @@
 # 14891
 
 def dir (wheel, num, bang):
-  st = num
-  fin = num
   dic = dict()
   dic[num-1] = bang 
   for i in range(num-1, 3):
     if wheel[i][2] == wheel[i+1][6]:
-      fin = i
       break
     else:
       dic[i+1] = -dic[i]
   for i in range(num-1, 0 , -1):
     if wheel[i-1][2] == wheel[i][6]:
-      st = i
       break
     else:
       dic[i-1] = - dic[i]
